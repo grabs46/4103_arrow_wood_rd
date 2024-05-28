@@ -10,9 +10,6 @@
           <li class="nav-item">
             <a href="https://www.redfin.com/TX/Cedar-Park/4103-Arrow-Wood-Rd-78613/home/40183529" class="nav-link">RedFin Page</a>
           </li>
-          <li class="nav-item">
-            <a href="/ContactUs" class="nav-link">Contact Us</a>
-          </li>
         </ul>
       </div>
     </div>
@@ -27,8 +24,8 @@
         <li data-target="#myCarousel" data-slide-to="2"></li>
     </ol>
     {{#each images}}
-    <div class="carousel-item {{#if @first}}active{{/if}}">
-      <img class="d-block w-100" src="{{this.url}}" alt="Slide">
+    <div class="carousel-item {{#if @first}}active{{/if}} align-items-center">
+      <img class="d-block w-100" src="{{this.url}}" alt="Slide" style="object-fit: cover; height: 100%; width: 100%;">
       <div class="carousel-caption d-none d-sm-block text-right mb-5">
         <h5>{{this.text}}</h5>
       </div>
@@ -45,7 +42,7 @@
   </a>
 </div>
 
-<!-- Home screen icons -->
+<!-- Home screen Text -->
 <section id="home-icons" class="py-5">
   <div class="container">
     <div class="row">
