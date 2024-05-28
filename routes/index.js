@@ -14,4 +14,8 @@ router.get('/', (req, res) => {
     res.render('index', { images });
 });
 
+router.get('/ContactUs', (req, res) =>{
+  res.render('ContactUs', { title: 'Contact Us' })
+})
+
 module.exports = router;
