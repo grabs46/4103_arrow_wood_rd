@@ -5,9 +5,9 @@ const router = express.Router();
 
 // Sample array of image data
 const images = [
-    { url: '/images/FrontView.jpg', text: 'Text for Image 1' },
-    { url: '/images/BackYardWideView.jpg', text: 'Text for Image 2' },
-    { url: '/images/BackYardView2.jpg', text: 'Text for Image 3' }
+    { url: '/images/FrontView.jpg', text: 'Luscious yard, with 4,646 Sq Ft of property space' },
+    { url: '/images/BackYardWideView.jpg', text: 'Gate access to green space for even more space' },
+    { url: '/images/BackYardView2.jpg', text: 'Self cleaning pool, which includes a pool heater and hot tub' }
 ];
 
 router.get('/', (req, res) => {
