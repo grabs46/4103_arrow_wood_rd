@@ -3,7 +3,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12 col-lg-6">
-                <a href="index.hbs" class="navbar-brand" style="color:bisque">4103 Arrow Wood Road</a>
+                <a href="https://www.redfin.com/TX/Cedar-Park/4103-Arrow-Wood-Rd-78613/home/40183529" id="home-link" class="navbar-brand" style="color:bisque">4103 Arrow Wood Road</a>
             </div>
         </div>
     </div>
@@ -20,8 +20,8 @@
     {{#each images}}
     <div class="carousel-item {{#if @first}}active{{/if}} align-items-center">
       <img class="d-block w-100" src="{{this.url}}" alt="Slide" style="object-fit: cover; height: 100%; width: 100%;">
-      <div class="carousel-caption text-center mb-30" >
-        <a href="https://www.redfin.com/TX/Cedar-Park/4103-Arrow-Wood-Rd-78613/home/40183529" class="btn btn-lg mb-20" style="color: bisque;">Learn More</a>
+      <div class="carousel-caption text-center mb-20" >
+        <a href="https://www.redfin.com/TX/Cedar-Park/4103-Arrow-Wood-Rd-78613/home/40183529" class="btn btn-lg btn-outline-light btn-learn-more" style="color: bisque;">Learn More</a>
         <h5>{{this.text}}</h5>
       </div>
     </div>
@@ -41,3 +41,6 @@
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+<!-- Include the JavaScript file -->
+{{!-- <script src="public\javascripts\navbar.js"></script> --}}

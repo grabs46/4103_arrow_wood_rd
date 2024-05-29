@@ -10,6 +10,7 @@ const images = [
     { url: '/images/BackYardView2.jpg', text: 'Self cleaning pool, which includes a pool heater and hot tub' }
 ];
 
+
 router.get('/', (req, res) => {
     res.render('index', { images });
 });
