@@ -1,9 +1,12 @@
 
-
+/*Base styles*/
 a {
   color: #00B7FF;
 }
 
+
+
+/* Carousel styles*/
 .carousel-caption {
   position: absolute;
   bottom: 5%; /* Adjust as needed */
@@ -18,7 +21,17 @@ a {
     bottom: 10%; /* Adjust for smaller screens */
   }
 }
+.carousel-item {
+  height: 100vh; /* Adjust 56px according to your navbar height */
+  overflow: hidden; /* Hide any overflow */
+}
 
+.btn-learn-more {
+  margin-bottom: 30px; /* Adjust this value to increase or decrease the space */
+}
+
+
+/* Navbar styles*/
 .navbar .nav-link {
   font-size: 20px;
   text-transform: uppercase;
@@ -29,13 +42,3 @@ a {
 .navbar .nav-item.active {
   border-left: purple 3px solid;
 }
-
-.carousel-item {
-  height: 100vh; /* Adjust 56px according to your navbar height */
-  overflow: hidden; /* Hide any overflow */
-}
-
-.btn-learn-more {
-  margin-bottom: 30px; /* Adjust this value to increase or decrease the space */
-}
-
