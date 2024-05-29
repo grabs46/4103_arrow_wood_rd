@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "start": "node ./bin/www",
-    "starthttps": "sudo node .bin/wwwhttps"
+    "starthttps": "sudo node ./bin/wwwhttps"
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
