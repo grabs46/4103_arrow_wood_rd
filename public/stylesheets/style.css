@@ -5,10 +5,18 @@ a {
 }
 
 .carousel-caption {
-  position:absolute;
-  bottom: 20%;
-  color:bisque;
-  font-size:2rem;
+  position: absolute;
+  bottom: 5%; /* Adjust as needed */
+  left: 50%;
+  transform: translateX(-50%);
+  color: bisque;
+  font-size: 2rem;
+}
+
+@media (max-width: 768px) {
+  .carousel-caption {
+    bottom: 10%; /* Adjust for smaller screens */
+  }
 }
 
 .navbar .nav-link {
@@ -23,8 +31,8 @@ a {
 }
 
 .carousel-item {
-  height: 1000px;
-
+  height: 100vh; /* Adjust 56px according to your navbar height */
+  overflow: hidden; /* Hide any overflow */
 }
 
 .btn-learn-more {

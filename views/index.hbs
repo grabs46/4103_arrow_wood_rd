@@ -19,7 +19,7 @@
     </ol>
     {{#each images}}
     <div class="carousel-item {{#if @first}}active{{/if}} align-items-center">
-      <img class="d-block w-100" src="{{this.url}}" alt="Slide" style="object-fit: cover; height: 100%; width: 100%;">
+      <img class="d-block w-100" src="{{this.url}}" alt="Slide" style="object-fit: cover; height: 100vh; width: auto;">
       <div class="carousel-caption text-center mb-20" >
         <a href="https://www.redfin.com/TX/Cedar-Park/4103-Arrow-Wood-Rd-78613/home/40183529" class="btn btn-lg btn-outline-light btn-learn-more" style="color: bisque;">Learn More</a>
         <h5>{{this.text}}</h5>
